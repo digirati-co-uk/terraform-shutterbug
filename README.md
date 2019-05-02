@@ -15,7 +15,7 @@ Terraform module for backing up Elasticsearch with snapshots that are held in S3
 | elasticsearch_url        | The fully qualified URL of the Elasticsearch instance                                                                |                           |
 | shutterbug_docker_image  | The Docker image to use for the ECS Task                                                                             | fractos/shutterbug:latest |
 | region                   | AWS Region for resources                                                                                             |                           |
-| s3_key_prefix            | The prefix for the S3 key to be used for backups                                                                     |                           |
+| s3_key_prefix            | The prefix for the S3 key to be used for backups (include trailing slash)                                            |                           |
 | s3_bucket_name           | The name of the S3 bucket that will hold backups                                                                     |                           |
 | account_id               | AWS account ID                                                                                                       |                           |
 | cluster_id               | The cluster on which to run the scheduled ECS task                                                                   |                           |
