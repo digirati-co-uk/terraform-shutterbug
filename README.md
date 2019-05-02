@@ -1,6 +1,6 @@
 # Shutterbug
 
-Terraform module for backing up Elasticsearch with snapshots that are held in S3, with notifications sent to a Slack webhook.
+Terraform module for scheduled backing up of an Elasticsearch instance with snapshots that are held in S3, with notifications sent to a Slack webhook.
 
 | Variable                 | Description                                                                                                          | Default                   |
 |--------------------------|----------------------------------------------------------------------------------------------------------------------|---------------------------|
